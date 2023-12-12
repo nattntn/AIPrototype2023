@@ -9,6 +9,8 @@ def parse_input():
         required=Ture,
         help= 'input for the multiplyby9 function'
     )
+    args = parser.parse_args()
+    return args
 
 def printHello():
     print("Hello world!")
