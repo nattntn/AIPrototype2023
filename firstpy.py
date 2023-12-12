@@ -22,5 +22,5 @@ if __name__ == "__main__":
     input_v = parse_input()
     print(f'the input num is {input_v.num}')
     print('we are in the main function')
-    multiplyby9(20)
+    multiplyby9(input_v)
     printHello()
