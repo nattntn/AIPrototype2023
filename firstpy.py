@@ -6,7 +6,7 @@ def parse_input():
     parser.add_argument(
         '--num',
         type=int,
-        required=Ture,
+        required=True,
         help= 'input for the multiplyby9 function'
     )
     args = parser.parse_args()
