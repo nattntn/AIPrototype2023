@@ -36,9 +36,10 @@
   ```
   $rm {filename}
   ```
-* เปลี่ยนชื่อ folder
+* เปลี่ยนชื่อ file
   ```
-  $mv {folder เดิม} {folder ใหม่}
+  $mv {file เดิม} {file ใหม่}
+  $mv ./{file เดิม} ./{file ใหม่}
   # $mv file1 filex # เปลี่ยนชื่อจาก file1 เป็น filex
   ```
 * change directory (เข้าไปในfolder)
@@ -53,15 +54,40 @@
   $cd ../.. # ออกมา 2 step
   ```
 ## 3. การ copy และการย้าย file/folder
-
+ที่อยู่ของ File/Folder ในตอนสุดท้าย
+![image](https://github.com/nattntn/AIPrototype2023/blob/main/lecture/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C.jpg)
 * หลักการ
   ```
   $cp {ที่อยู่ต้นทางของ file/folder ที่ต้องการคัดลอก} {ที่อยู่ปลายทางที่ต้องการที่จะคัดลอก file/folder ไป}
   $mv {ที่อยู่ต้นทางของ file/folder ที่ต้องการย้าย} {ที่อยู่ปลายทางที่ต้องการที่จะย้าย file/folder ไป}
   ```
-* Copy
+* Copy file
+  ```
+  $cp ./filex ~/testfolder1/testfolder1_1/. # ~ กลับไปที่ home ก่อน
+  ```
   ```
   # copy file1 in testfolder1 to testfolder1_1_1
-  cp ./file1 ./testfolder1_1/testfolder1_1_1/.
+  $cp ./file1 ./testfolder1_1/testfolder1_1_1/.
   # cp ที่นี่/ชื่อไฟล์ ที่นี่/เข้าไปที่1_1/เข้าไปที่1_1_1/เอาไว้ตรงนี้
+  ```
+* Copy and change the file name
+  คัดลอกไฟล์ 1 ไปที่ testfolder1_1_1 โดยให้มีชื่อว่า file2
+  ```
+  $cp ./file1 ./testfolder1_1/testfolder1_1_1/file2
+  ```
+* Copy folder
+  ```
+  # copy folder + change folder name แต่เอาไว้ที่เดิม
+  $cp -R ./testfolder1_1_1 ./testfolder1_1_2
+  ```
+* Move file
+  ```
+  $ mv ./filex ~/testfolder2/. # ~ home
+  $ mv ./filex ../../../testfolder2/.
+  ```
+  # Homework
+  copy filex in testfolder1_1 to testfolder1_1_2 and change file name to filey
+  ```
+  cp ./filex ~/testfolder1/testfolder1_1/testfolder1_1_2/filey
+  ```
   
