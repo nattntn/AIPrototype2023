@@ -33,7 +33,11 @@
   ```
   $rm {filename}
   ```
-  
+* เปลี่ยนชื่อ folder
+  ```
+  $mv {folder เดิม} {folder ใหม่}
+  # $mv file1 filex # เปลี่ยนชื่อจาก file1 เป็น filex
+  ```
 * change directory (เข้าไปในfolder)
   ```
   $cd {foldername}
@@ -45,5 +49,5 @@
   $cd .. # ออกมา 1 step
   $cd ../.. # ออกมา 2 step
   ```
-  
+
   
