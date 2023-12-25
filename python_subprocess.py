@@ -5,6 +5,10 @@ if __name__ == "__main__":
     subprocess.run([print('first run num = 100 xx= 90')])
     subprocess.run(["python","firstpy.py", "--num", "100","--xx", "90"])
     subprocess.run([print("--"*80)])
+    subprocess.run([print('first run num = -10 xx= -90')])
     subprocess.run(["python","firstpy.py", "--num", "-10","--xx", "-90"])
+    subprocess.run([print("--"*80)])
+    subprocess.run([print('first run num = 0')])
     subprocess.run(["python","firstpy.py", "--num", "0"])
+    subprocess.run([print("--"*80)])
     
