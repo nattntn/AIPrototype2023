@@ -3,7 +3,7 @@ import re
 import argparse
 
 def run_script(num, xx):
-    cmd = ['python', 'your_script.py', '--num', str(num), '--xx', str(xx)]
+    cmd = ['python', 'firstpy.py', '--num', str(num), '--xx', str(xx)]
     process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     output, _ = process.communicate()
     return output
