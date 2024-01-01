@@ -25,7 +25,4 @@ def main():
     print(f"Sum of values in the run with num={args.num} and xx={args.xx}: {sum_values}")
 
 if __name__ == "__main__":
-    python run_script.py --num 100 --xx 90
-    python run_script.py --num -10 --xx -90
-    python run_script.py --num 0
-
+    main()
