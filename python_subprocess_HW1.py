@@ -34,7 +34,7 @@ def main():
     print(f"Sum of values in the second run: {sum_second_run}")
 
     # Third run
-    output_third_run = run_script(0, )  # Adjust values as needed
+    output_third_run = run_script(0, args.xx)  # Adjust values as needed
     sum_third_run = extract_and_sum(output_third_run)
     total_sum += sum_third_run
     print(f"Sum of values in the third run: {sum_third_run}")
