@@ -1,6 +1,6 @@
 import subprocess #สำหรับ run terminal command # นำที่มี Output/~output มาแสดง
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
     #basic terminal command
     #subprocess.run(["ls", "-ltr"]) # เขียนเป็น list ช่องว่าง ใช้  ,
     #subprocess.run(["rm","-r","~/testfolder1"])#ลบ testfolder1
