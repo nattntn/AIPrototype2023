@@ -19,15 +19,24 @@
   ```
   $mkdir {foldername}
   ```
-* create file
+* create file 
   ```
-  $vi {filename}
+  $vi {filename}  # สร้างและเปิดไฟล์ขึ้นมาแก้ไข
+  $vi {filename.py} # python file
   #กด i เพื่อแก้ไข
   #กด esc + :wq (save)
   #กด esc + :q! (save)
   ```
   เวลาจะพิมพ์ กด ***i*** แล้วมันจะขึ้นว่า ***INSERT*** แล้วถึงพิมพ์ได้
   หลังจากนั้นเมื่อพิมพ์เสร็จต้องการที่จะบันทึกให้กด ***esc*** แล้วพิมพ์ **:wq** (write and quit)
+* เปิดไฟล์ขึ้นมาดูที่เขียนเฉยๆ
+  ```
+  $cat {filename}
+  ```
+* run code Python 
+  ```
+  $python {filename.py}
+  ```
 * delete folder
   ```
   $rm -R {foldername}
