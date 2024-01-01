@@ -47,6 +47,11 @@
     $ssh {ชื่อเครื่องที่สร้าง}@IP #IP super user
     $htop # ดูว่าเพื่อนเข้ามายัง
     ```
+  * 3. แก้ไข Permission ของเครื่องที่สร้าง
+    super user แก้ไขได้
+    ```
+    $sudo chmod 755 yoke # chmod = change mode // 7 = owner(r|w|x), 5 = group (r|-|x),5 =other (r|-|x)
+    ```
     
     
   
