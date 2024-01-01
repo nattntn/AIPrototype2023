@@ -94,9 +94,11 @@
   $ mv ./filex ~/testfolder2/. # ~ home
   $ mv ./filex ../../../testfolder2/.
   ```
-  # Homework
-  copy filex in testfolder1_1 to testfolder1_1_2 and change file name to filey
-  ```
-  cp ./filex ~/testfolder1/testfolder1_1/testfolder1_1_2/filey
-  ```
+# ยกเลิกคำสั่ง
+> ctrl+c
+# Homework
+copy filex in testfolder1_1 to testfolder1_1_2 and change file name to filey
+```
+cp ./filex ~/testfolder1/testfolder1_1/testfolder1_1_2/filey
+```
   
