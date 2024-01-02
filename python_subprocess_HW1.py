@@ -50,7 +50,7 @@ def main():
     subprocess.run(["python","firstpy.py", "--num", "0"])
     print("-"*80)
 
-    print(f"Total sum across all runs:{sum_first_run}+{sum_second_run}+{output_third_run} = {total_sum}")
+    print(f"Total sum across all runs:{sum_first_run}+{sum_second_run}+{sum_third_run} = {total_sum}")
 
 if __name__ == "__main__":
     main()
