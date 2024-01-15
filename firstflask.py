@@ -4,9 +4,13 @@ import json
 
 app = Flask(__name__)
 
-@app.route("/")  
+@app.route("/")  #บอกว่าเรียกใช้ web ไหน
 def helloworld():
     return "Hello, World!"
+
+@app.route("/name")  #บอกว่าเรียกใช้ web ไหน
+def hellonat():
+    return "Hello, Nat!"
 
 if __name__ == "__main__":   # run code 
     app.run(host='0.0.0.0',debug=True,port=5001)#host='0.0.0.0' = run on internet ,port=5001
