@@ -21,7 +21,7 @@ def homefn():
     print(namein)
     print(lastnamein)
     #return render_template("home.html",name = f"{first_name} {last_name}")
-    return render_template("home.html",name =namein)
+    return render_template("home.html",name=namein)
 
 if __name__ == "__main__":   # run code 
     app.run(host='0.0.0.0',debug=True,port=5001)#host='0.0.0.0' = run on internet ,port=5001
