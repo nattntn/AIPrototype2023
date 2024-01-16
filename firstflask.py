@@ -36,7 +36,7 @@ def upload_file():
     if request.method == 'POST':
         file = request.files['file']
         file.save(filename)
-        return render_template("home.html",name=upload completed)
+        return render_template("home.html",name= 'upload completed')
 
     return '''  
     <!doctype html>
