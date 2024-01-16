@@ -12,7 +12,7 @@ def helloworld():
 def hellonat():
     return "Hello, Nat!"
 
-@app.route("/home", methods=['POST']) # methods=['POST'] ต้องเปิดเพื่อให้รับข้อความ
+@app.route("/home", methods=['POST','GET']) # methods=['POST'] ต้องเปิดเพื่อให้รับข้อความ
 def homefn():
     print('we are in home')
     # # getting input with name = fname in HTML form
