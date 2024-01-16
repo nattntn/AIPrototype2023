@@ -5,6 +5,22 @@ import sys
 
 app = Flask(__name__)
 
+#web service
+##api post
+@app.route('/request',methods=['POST'])
+def web_service_API():
+    
+    payload = request.data.decode("utf-8")
+    inmessage = json.loads(payload)
+
+    print(inmessage)
+    
+    
+    json_data = json.dumps({'y': 'received!'})
+    return json_data
+
+
+
 @app.route("/")  #บอกว่าเรียกใช้ web ไหน
 def helloworld():
     return "Hello, World!"
@@ -47,6 +63,7 @@ def upload_file():
       <input type=submit value=Upload>
     </form>
     '''
+
 
 if __name__ == "__main__":   # run code 
     app.run(host='0.0.0.0',debug=True,port=5001)#host='0.0.0.0' = run on internet ,port=5001
