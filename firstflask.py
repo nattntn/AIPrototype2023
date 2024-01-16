@@ -15,14 +15,21 @@ def hellonat():
 
 @app.route("/home", methods=['POST','GET']) # methods=['POST'] ต้องเปิดเพื่อให้รับข้อความ
 def homefn():
-    print('we are in home', file=sys.stdout)
-   
-    namein = request.form.get('fname') #เก็บ input
-    lastnamein = request.form.get('lname')
-    print(namein, file=sys.stdout)
-    print(lastnamein, file=sys.stdout)
-    #return render_template("home.html",name = f"{first_name} {last_name}")
-    return render_template("home.html",name=namein)
+    if request.method == "GET":
+       print('we are in home(GET)', file=sys.stdout)
+
+       namein = request.args.get('fname')
+       print(namein, file=sys.stdout)
+       return render_template("home.html",name=namein)
+
+    elif request.method == "POST":
+        print('we are in home(POST)', file=sys.stdout)
+        namein = request.form.get('fname') #เก็บ input
+        lastnamein = request.form.get('lname')
+        print(namein, file=sys.stdout)
+        print(lastnamein, file=sys.stdout)
+        #return render_template("home.html",name = f"{first_name} {last_name}")
+        return render_template("home.html",name=namein)
 
 if __name__ == "__main__":   # run code 
     app.run(host='0.0.0.0',debug=True,port=5001)#host='0.0.0.0' = run on internet ,port=5001
