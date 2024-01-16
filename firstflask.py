@@ -7,16 +7,16 @@ app = Flask(__name__)
 
 #web service
 ##api post
-@app.route('/request',methods=['POST'])
+@app.route('/request',methods=['POST']) 
 def web_service_API():
-    
+
     payload = request.data.decode("utf-8")
-    inmessage = json.loads(payload)
+    inmessage = json.loads(payload) # ทำ json
 
     print(inmessage)
     
     
-    json_data = json.dumps({'y': 'received!'})
+    json_data = json.dumps({'y': 'received!'}) # ส่งกลับไปว่าได้รับเเล้ววว
     return json_data
 
 
