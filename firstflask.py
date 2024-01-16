@@ -14,12 +14,12 @@ def hellonat():
 
 @app.route("/home", methods=['POST','GET']) # methods=['POST'] ต้องเปิดเพื่อให้รับข้อความ
 def homefn():
-    print('we are in home')
+    print('we are in home', file=sys.stdout)
     # # getting input with name = fname in HTML form
-    namein = request.form.get['fname'] #เก็บ input
-    lastnamein = request.form.get['lname']
-    print(namein)
-    print(lastnamein)
+    namein = request.form.get('fname') #เก็บ input
+    lastnamein = request.form.get('lname')
+    print(namein, file=sys.stdout)
+    print(lastnamein, file=sys.stdout)
     #return render_template("home.html",name = f"{first_name} {last_name}")
     return render_template("home.html",name=namein)
 
