@@ -16,8 +16,8 @@ def hellonat():
 def home2():
     # print('we are in home2')
     # # getting input with name = fname in HTML form
-    # name = request.form['fav_language']
-    # print(name)
+    namein = request.form.get['first name']
+    print(namein)
     #return render_template("home.html",name = f"{first_name} {last_name}")
     return render_template("home.html",name ='nat')
 
