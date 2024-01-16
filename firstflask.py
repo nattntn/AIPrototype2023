@@ -12,14 +12,16 @@ def helloworld():
 def hellonat():
     return "Hello, Nat!"
 
-@app.route("/home2")
-def home2():
-    # print('we are in home2')
+@app.route("/home", methods=['POST']) # methods=['POST'] ต้องเปิดเพื่อให้รับข้อความ
+def homefn():
+    print('we are in home')
     # # getting input with name = fname in HTML form
-    namein = request.form.get['first name']
+    namein = request.form.get['fname'] #เก็บ input
+    lastnamein = request.form.get['lname']
     print(namein)
+    print(lastnamein)
     #return render_template("home.html",name = f"{first_name} {last_name}")
-    return render_template("home.html",name ='nat')
+    return render_template("home.html",name =namein)
 
 if __name__ == "__main__":   # run code 
     app.run(host='0.0.0.0',debug=True,port=5001)#host='0.0.0.0' = run on internet ,port=5001
