@@ -24,5 +24,12 @@ done!!
          xx
      >>> exit() # ออกจาก python
      ```
+- ย้ายไฟล์จาก cloud ของเพื่อน ลงเครื่องของเรา
+  **ย้ายที่เครื่อง**
+  ```
+  nattntn@LAPTOP.......:~$ scp nattntn@IP:/home/yoke/{ชื่อไฟล์} /home/nattntn
+  ```
+  
+  
   
      
