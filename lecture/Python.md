@@ -161,9 +161,15 @@ $ conda install notebook
      ```
      $ conda activate deeptooth38
      ```
-- 4. ออกจาก ssh
+- 4. run jupyter
+     ```
+     $jupyter notebook
+     ```
+- 5. ออกจาก screen  
+     ``` ctrl+a``` ยกนิ้วขึ้น แล้วกด ```d```
+- 6. ออกจาก ssh
      ``` exit```
-- 5. เข้า VM แบบ**Tunnel**
+- 7. เข้า VM แบบ**Tunnel**
      format
      ```
      $ ssh -L myport:localhost:screenport username@IP
@@ -172,11 +178,11 @@ $ conda install notebook
      ```
      $ ssh -L 8866:localhost:8888 nattntn@IP
      ```
-- 6. เข้าไปใน screen ที่สร้าง
+- 8. เข้าไปใน screen ที่สร้าง
      ```
      $ screen -R notebook
      ```
-- 7.  copy URL มา แล้วไปวางไว้ที่ช่อง search บน browser แล้วเปลี่ยนจาก port 8888 เป็น 8866  
+- 9.  copy URL มา แล้วไปวางไว้ที่ช่อง search บน browser แล้วเปลี่ยนจาก port 8888 เป็น 8866  
      **ตอนนี้อยู่ในเครื่องเราแล้ว runได้นานเท่าที่ต้องการ**
  
      
