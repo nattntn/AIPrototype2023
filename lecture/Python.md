@@ -34,19 +34,24 @@ done!!
 - Format
   ```
   $ sudo snap install {ชื่อโปรแกรม}
-  #ex
+  ```
+  ex.
+  ```
   $ sudo snap install ffmpeg  # มันจะทำการ download จาก internet ให้เลย
-  #or
+  or
+  ```
   $ atp install {ชื่อโปรแกรม}
   ```
 - **ทุกโปรแกรมจะมีคำสั่ง $man**
   ```
   $ man ls  # = manual ดูว่ามีคำสั่งอะไรให้เลือกใช้บ้าง
-  # or
+  ```
+  or
+  ```
   $ {ชื่อโปรแกรม} -h # บอกว่าโปรแกรมนี้มี option  อะไรให้ใช้บ้าง
   $ ffmpeg -h
   ```
-  - ex
+  - ex.
   ```
   $ ls -l # ดูรายละเอียดไฟล์
   $ ls -lt # ดูรายละเอียดไฟล์แบบใหม่สุดอยู่บน
@@ -66,22 +71,28 @@ done!!
 - 1. สร้าง Environment (แค่ตอนเริ่ม)
      ```
      $ conda create -n {ชื่อ env} python = {versionที่ต้องการ}
-     #ex
+     ```
+     ex.
+     ```
      $ conda create -n deeptooth38 python = 3.8 # 3.8 จะโหลด v. ใหม่ล่าสุดของ 3.8 มา หรือถ้าเราต้องการเจาะจงก็ระบุลงไปได้เลย เช่น 3.8.2
      ```
 - 2. เข้าไปใช้งาน env
        ```
        $ conda activate {ชื่อ env}
-       # ex
+       ```
+       ex.
+       ```
        $ conda activate deeptooth38
        ```
        หน้าตาหลังจากเข้ามา ```(deeptooth38) nattntn@nattntn:$```
 - 3. เลิกใช้งาน env (ก่อนจะไปใช้ env อื่น)
       ```
       $ conda deactivate {ชื่อ env}
-      # ex
+      ```
+      ex.
+      ```
       $ conda deactivate deeptooth38
-       ```
+      ```
 ## Format install package
 อยู่ใน VM และเข้า env แล้ว
 ```
@@ -101,13 +112,75 @@ $ conda install pandas(=versionที่ต้องการ ถ้าไม่
 $ conda install notebook
 ```
 **แต่ยังไม่สามารถเรียกใช้ได้ ต้องใช้คำสั่งพิเศษในการเข้าใช้งาน ```ssh -L ```(tunnel)**
+
 ### [Tunnel](https://www.techtarget.com/searchsecurity/tutorial/How-to-use-SSH-tunnels-to-cross-network-boundaries#:~:text=The%20%2DL%20option%20is%20used,to%20access%20a%20remote%20resource.)
-> The -L option is used to bind a port on the local machine with a remote port at the remote destination IP address. The port is bound through the connection to the user account at the ssh_server.
+> The -L option is used to bind a port on the local machine with a remote port at the remote destination IP address. The port is bound through the connection to the user account at the ssh_server.  
+![image](https://github.com/nattntn/AIPrototype2023/blob/main/lecture/ssh_local_port_forwarding_tunnel.png)
 
 - syntax:
   ```
   $ ssh -L local_port:remote_destination:remote_port user@ssh_server
   ```
+
+  ### section
+  > ใน VM มี section ในการทำงาน โดยหากเราหลุดจาก VM/exit ทุกอย่างที่ run ไว้ก็จะหาย
+    ซึ่งการ run code ใน jupyter ต้องใช้ระยะเวลา ดังนั้นจึงทีสิ่งที่เรียกว่า **screen** เข้ามาช่วยให้เวลาเราออกจาก VM สิ่งที่เรา run ทิ้งไว้จะไม่หยุด หากเรา run ค้างไว้ใน screen
+  
+  ![image](https://github.com/nattntn/AIPrototype2023/blob/main/lecture/section.jpg)
+  
+  ### Screen
+  > screen  คือการสร้าง section ใหม่ขึ้นมา โดยที่มันจะไม่เชื่อมกับ ```ssh`` ซึ่งมันก็จะ run ต่อไปเรื่อยๆ จนกว่าเราจะปิด screen / ปิด VM (ใน Azure)/คอม??
+- 1. สร้าง Screen
+    ```
+    $ screen -S {ชื่อscreen} # S = start /section
+    # ex
+    $ screen -S sc1
+    ```
+    มันจะเข้าไปใน screen --> ``` ctrl+a``` ยกนิ้วขึ้น แล้วกด ```d```(detach) คือการตัดตัวเองออกมาจาก screen แต่ screen ยัง  run อยู่ เพราะเราไม่ได้ปิด
+- 2. เข้าไปใน screen ที่สร้าง
+     ```
+     $ screen -R {ชื่อscreen}
+     # ex
+     $ screen -R sc1
+     ```
+     - 1. ลองออกจาก ssh
+       ออกจาก screen ``` ctrl+a``` ยกนิ้วขึ้น แล้วกด ```d``` แล้ว ```exit``ออกจาก ssh
+     - 2. เข้า ssh แล้ว เข้า screen ใหม่ จะเห็นว่า ที่ run ค้างไว้ยังคง run อยู่ เเม้เราจะ**ออกจาก ssh**
+- 3. ปิด screen /(delete?)
+     ``` ctrl+a``` ยกนิ้วขึ้น แล้วกด ```k```(kill)
+- 4. ดูว่ามี screen อะไรบ้าง /(ที่รันอยู่??)
+
+### จะใช้ jupyter notebook
+- 1. เข้า VM
+     ``` ssh username@IP```
+- 2. สร้าง screen
+  ```
+  $ screen -S notebook
+  ```
+- 3. activate env
+     ```
+     $ conda activate deeptooth38
+     ```
+- 4. ออกจาก ssh
+     ``` exit```
+- 5. เข้า VM แบบ**Tunnel**
+     format
+     ```
+     $ ssh -L myport:localhost:screenport username@IP
+     ```
+     ex.
+     ```
+     $ ssh -L 8866:localhost:8888 nattntn@IP
+     ```
+- 6. เข้าไปใน screen ที่สร้าง
+     ```
+     $ screen -R notebook
+     ```
+- 7.  copy URL มา แล้วไปวางไว้ที่ช่อง search แล้วเปลี่ยนจาก port 8888 เป็น 8866  
+     **ตอนนี้อยู่ในเครื่องเราแล้ว runได้นานเท่าที่ต้องการ**
+ 
+     
+  
   
        
   
