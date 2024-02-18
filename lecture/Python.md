@@ -82,6 +82,33 @@ done!!
       # ex
       $ conda deactivate deeptooth38
        ```
+## Format install package
+อยู่ใน VM และเข้า env แล้ว
+```
+$ conda install {ชื่อpackage}
+```
+
+## Install Pandas package
+```
+$ conda install pandas(=versionที่ต้องการ ถ้าไม่ระบุจะเป็น version ใหม่ล่าสุด)
+```
+- check ว่า install ได้
+  ```
+  $ import pandas #ได้
+  ```
+## Install Jupyter notebook package
+```
+$ conda install notebook
+```
+**แต่ยังไม่สามารถเรียกใช้ได้ ต้องใช้คำสั่งพิเศษในการเข้าใช้งาน ```ssh -L ```(tunnel)**
+### [Tunnel](https://www.techtarget.com/searchsecurity/tutorial/How-to-use-SSH-tunnels-to-cross-network-boundaries#:~:text=The%20%2DL%20option%20is%20used,to%20access%20a%20remote%20resource.)
+> The -L option is used to bind a port on the local machine with a remote port at the remote destination IP address. The port is bound through the connection to the user account at the ssh_server.
+
+- syntax:
+  ```
+  $ ssh -L local_port:remote_destination:remote_port user@ssh_server
+  ```
+  
        
   
   
