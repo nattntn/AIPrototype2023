@@ -176,7 +176,7 @@ $ conda install notebook
      ```
      $ screen -R notebook
      ```
-- 7.  copy URL มา แล้วไปวางไว้ที่ช่อง search แล้วเปลี่ยนจาก port 8888 เป็น 8866  
+- 7.  copy URL มา แล้วไปวางไว้ที่ช่อง search บน browser แล้วเปลี่ยนจาก port 8888 เป็น 8866  
      **ตอนนี้อยู่ในเครื่องเราแล้ว runได้นานเท่าที่ต้องการ**
  
      
