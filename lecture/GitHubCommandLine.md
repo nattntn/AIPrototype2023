@@ -19,3 +19,12 @@ $ mkdir codes
 - 2. เข้า GitHub ที่ต้องการ clone
 - 3. กด ที่  **<> codes** ---> **HTTPS**---> **copy**
      <img src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/clone%20git.png" width="400" height="400" />
+- 4. clone (load repository to your PC)
+     ```
+     $ git clone https://github.com/nattntn/AIPrototype2023.git
+     ```
+## แก้ README
+```
+$ vi README.md
+```
+     
