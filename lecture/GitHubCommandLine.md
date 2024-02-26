@@ -21,7 +21,7 @@ $ mkdir codes
  
      
      <img src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/clone%20git.png" width="400" height="400" />
-- 4. clone (load repository to your PC)
+- 4. clone (load repository to your VM)
      ```
      $ git clone https://github.com/nattntn/AIPrototype2023.git
      ```
@@ -80,6 +80,30 @@ $ mkdir codes
      /home/nattntn/outside:$ ln -s /mnt/c/Ubundu /home/nattntn/outside
      ```
      **ตอนนี้ เมื่อเราลากไฟล์อะไรมาใส่ใน file Ubuntu on window  มันก็จะมาอยู่บน teminal file outside ของเราด้วย**
+
+## 2. Setting your Git username for every repository on your computer (1st)
+**on PC**
+
+### [Set a Git username:](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git)
+```
+git config --global user.name "nattntn"   # "{ชื่อgithubเรา}"
+```
+
+### [Set a Git email:](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
+```
+git config --global user.email "natthanich.h@kkumail.com" # "YOUR_EMAIL_sign in git"
+```
+
+### Clone GitHub 
+- 1. เข้า GitHub ที่ต้องการ clone
+- 2. กด ที่  **<> codes** ---> **HTTPS**---> **copy**
+ 
+     
+     <img src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/clone%20git.png" width="400" height="400" />
+- 3. clone (load repository to your terminal/PC)
+     ```
+     nattntn:LAP..:~outside/Ubuntu$ git clone https://github.com/nattntn/AIPrototype2023.git
+     ```
       
    
      
