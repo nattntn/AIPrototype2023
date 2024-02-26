@@ -10,7 +10,7 @@
 |   3     |  ɴᴏᴠ 28, 2023 | ɪɴꜱᴛᴀʟʟ ᴘʀᴏɢʀᴀᴍ, ᴘᴀᴄᴋᴀɢᴇ, ᴄʀᴇᴀᴛᴇ ᴇɴᴠ, ᴊᴜᴘʏᴛᴇʀ, ɢɪᴛʜᴜʙ, ᴍᴀᴘ ᴅʀɪᴠᴇ (ᴘᴄ ᴀɴᴅ ᴛᴇʀᴍɪɴᴀʟ) | [ʟᴇᴄᴛᴜʀᴇ](lecture/Python.md) [ʟᴇᴄᴛᴜʀᴇ](lecture/GitHubCommandLine.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/_Ab1d2t4JsU)|
 |   4     |  ᴅᴇᴄ 12, 2023 | ᴘʏᴛʜᴏɴ ꜱᴄʀɪᴘᴛ, ᴍᴀɪɴ ꜰᴜɴᴄᴛɪᴏɴ ᴘʏᴛʜᴏɴ, ᴀʀɢᴘᴀʀꜱᴇ  | [ʟᴇᴄᴛᴜʀᴇ](lecture/PythonScript.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/VboIdvM2--w)|
 |   5     |  ᴅᴇᴄ 25, 2023 |ꜱᴜʙᴘʀᴏᴄᴇꜱꜱ, ꜱᴜʙᴘʀᴏᴄᴇꜱꜱ.ᴘᴏᴘᴇɴ                      |  <a href="./lecture/PythonScript.md#ตอนใช้งาน">ʟᴇᴄᴛᴜʀᴇ</a> | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/TAAA8bLaDS0)|
-|   6     |  ᴊᴀɴ 1, 2024 |ᴡᴇʙ ᴘᴀɢᴇ                      |  [ʟᴇᴄᴛᴜʀᴇ]() | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/2PnI5UpbXUc)|
+|   6     |  ᴊᴀɴ 1, 2024 |ᴡᴇʙ ᴘᴀɢᴇ                      |  [ʟᴇᴄᴛᴜʀᴇ](lecture/Web.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/2PnI5UpbXUc)|
 
 ***ᴘꜱ. ᴀʟʟ ᴠɪᴅᴇᴏꜱ ᴀʀᴇ ꜱᴇᴛ ᴛᴏ ᴘʀɪᴠᴀᴛᴇ.***
 
