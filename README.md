@@ -11,7 +11,7 @@
 |   4     |  ᴅᴇᴄ 12, 2023 | ᴘʏᴛʜᴏɴ ꜱᴄʀɪᴘᴛ, ᴍᴀɪɴ ꜰᴜɴᴄᴛɪᴏɴ ᴘʏᴛʜᴏɴ, ᴀʀɢᴘᴀʀꜱᴇ  | [ʟᴇᴄᴛᴜʀᴇ](lecture/PythonScript.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/VboIdvM2--w)|
 |   5     |  ᴅᴇᴄ 25, 2023 |ꜱᴜʙᴘʀᴏᴄᴇꜱꜱ, ꜱᴜʙᴘʀᴏᴄᴇꜱꜱ.ᴘᴏᴘᴇɴ                      |  <a href="./lecture/PythonScript.md#ตอนใช้งาน">ʟᴇᴄᴛᴜʀᴇ</a> | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/TAAA8bLaDS0)|
 |   6     |  ᴊᴀɴ 1, 2024 |ᴡᴇʙ ᴘᴀɢᴇ                      |  [ʟᴇᴄᴛᴜʀᴇ](lecture/Web.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/2PnI5UpbXUc)|
-|   7     |  ᴊᴀɴ 15, 2024 |ᴡᴇʙ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ                      |  <a href="./lecture/Web.md#Web Application">ʟᴇᴄᴛᴜʀᴇ</a> | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/hL2cL0S8K-Q)|
+|   7     |  ᴊᴀɴ 15, 2024 |ᴡᴇʙ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ                      |  <a href="./lecture/Web.md#WebApplication">ʟᴇᴄᴛᴜʀᴇ</a> | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/hL2cL0S8K-Q)|
 
 ***ᴘꜱ. ᴀʟʟ ᴠɪᴅᴇᴏꜱ ᴀʀᴇ ꜱᴇᴛ ᴛᴏ ᴘʀɪᴠᴀᴛᴇ.***
 
