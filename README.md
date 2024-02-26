@@ -11,7 +11,7 @@
 |   4     |  ᴅᴇᴄ 12, 2023 | ᴘʏᴛʜᴏɴ ꜱᴄʀɪᴘᴛ, ᴍᴀɪɴ ꜰᴜɴᴄᴛɪᴏɴ ᴘʏᴛʜᴏɴ, ᴀʀɢᴘᴀʀꜱᴇ  | [ʟᴇᴄᴛᴜʀᴇ](lecture/PythonScript.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/VboIdvM2--w)|
 |   5     |  ᴅᴇᴄ 25, 2023 |ꜱᴜʙᴘʀᴏᴄᴇꜱꜱ, ꜱᴜʙᴘʀᴏᴄᴇꜱꜱ.ᴘᴏᴘᴇɴ                      | [ʟᴇᴄᴛᴜʀᴇ](lecture/PythonScript.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/TAAA8bLaDS0)|
 
-
+ <li><a href="./lecture/PythonScript.md#ใช้ Python สั่งงาน Program อื่น 25/12/66">ʟᴇᴄᴛᴜʀᴇ</a></li>
 ***ᴘꜱ. ᴀʟʟ ᴠɪᴅᴇᴏꜱ ᴀʀᴇ ꜱᴇᴛ ᴛᴏ ᴘʀɪᴠᴀᴛᴇ.***
 
 
