@@ -5,7 +5,9 @@
 # 📅 Calendar
 |  ᴄʟᴀꜱꜱ  |     ᴅᴀᴛᴇ      |               ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ                        | ʟᴇᴄᴛᴜʀᴇ  | ᴠɪᴅᴇᴏ  |
 |:-------:|:-------------:|:-----------------------------------------------:|:---------:|:--------:|
-|   1     |  ɴᴏᴠ 14, 2023 | ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ                     | [ʟᴇᴄᴛᴜʀᴇ](lecture/LinuxCommandLine(บนเครื่อง).md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/AYuu9YOnjeM) [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/6SzbohPKHw0)
+|   1     |  ɴᴏᴠ 14, 2023 | ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ                             | [ʟᴇᴄᴛᴜʀᴇ](lecture/LinuxCommandLine(บนเครื่อง).md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/AYuu9YOnjeM) [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/6SzbohPKHw0)|
+|   2     |  ɴᴏᴠ 21, 2023 | ᴠᴍ, ꜱꜱʜ, ꜱᴄᴘ, ᴜɴɪx ᴘᴇʀᴍɪꜱꜱɪᴏɴ, ꜱᴜᴅᴏ ᴀᴅᴅᴜꜱᴇʀ       | [ʟᴇᴄᴛᴜʀᴇ](lecture/UbuntuonCloudVM.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/Dq0i3Oz0tYE)|
+|   3     |  ɴᴏᴠ 28, 2023 | ɪɴꜱᴛᴀʟʟ ᴘʀᴏɢʀᴀᴍ, ᴘᴀᴄᴋᴀɢᴇ, ᴄʀᴇᴀᴛᴇ ᴇɴᴠ, ᴊᴜᴘʏᴛᴇʀ, ɢɪᴛʜᴜʙ, ᴍᴀᴘ ᴅʀɪᴠᴇ (ᴘᴄ ᴀɴᴅ ᴛᴇʀᴍɪɴᴀʟ) | [ʟᴇᴄᴛᴜʀᴇ](lecture/Python.md) [ʟᴇᴄᴛᴜʀᴇ](lecture/GitHubCommandLine.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/_Ab1d2t4JsU)|
 
 
 
