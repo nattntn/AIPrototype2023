@@ -213,3 +213,6 @@ output
 
 # HW เขียน subprocess sum output ทั้งหมดของ command 3 อันข้างบน (ตัวเลขก่อน Hello world!)
 [python_subprocess_HW1](https://github.com/nattntn/AIPrototype2023/blob/main/python_subprocess_HW1.py)
+ 1. ``$ vi python_subprocess_HW1.py`` แก้เลข ต่างๆ
+ 2. `` git checkout python_subprocess_HW1.py`` ให้ไฟล์นี้กลับไปเหมือนตอนแรกที่ยังไม่แก้เลข
+ 3. ``git pull`` ดูการเปลี่ยนแปลง
