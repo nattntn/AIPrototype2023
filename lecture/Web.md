@@ -13,7 +13,7 @@
 # Web Page
 <br/>
 <div align="center" >
-  <img class="logo"src="lecture/logo3.svg" style="float: center;" style="transform: scale(0.2);">  
+  <img class="logo"src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/logo3.svg" style="float: center;" style="transform: scale(0.2);">  
 </div>
 
 <div align="center" >
