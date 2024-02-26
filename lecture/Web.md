@@ -10,7 +10,7 @@
 - 3. **Web service**
   > ใช้แค่ Server side script Python (Flask package)  เพราะไม่ได้ต้องการให้คนมาใข้
 
-# Web Page
+# WebPage
 <br/>
 <div align="center" >
   <img class="logo"src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/logo3.svg" style="float: center;" style="transform: scale(0.2);">  
@@ -24,7 +24,7 @@
 ## How to activate web page on GitHub
 <img src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/activate%20web%20page.jpg" width = "600" heigth="600"/>
 
-# Web Application
+# WebApplication
 <br/>
 <div align="center" >
   <img class="logo"src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/logo3.svg" style="float: center;" style="transform: scale(0.2);">  
