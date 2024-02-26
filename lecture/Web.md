@@ -21,3 +21,15 @@
   <a href="https://github.com/nattntn/Interpretable_Deep_Neural_Networks_for_Age_and_Gender_Estimation_via_Panoramic_Radiographs">Source Code</a>  
 </div>
 
+# Web Application
+<br/>
+<div align="center" >
+  <img class="logo"src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/logo3.svg" style="float: center;" style="transform: scale(0.2);">  
+</div>
+
+<div align="center" >
+  <a href="#">DentAI</a>  
+  <a href="#">Source Code</a>  
+</div>
+
+
