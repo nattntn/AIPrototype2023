@@ -32,4 +32,11 @@
   <a href="#">Source Code</a>  
 </div>
 
+## Workflow of our system
+<div align="center" >
+   <img class="logo"src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/workflow%20of%20our%20system.svg" style="float: center;">
+</div>
+
+
+
 
