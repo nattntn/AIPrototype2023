@@ -210,4 +210,6 @@ git pull
 output  
 > <img src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/output_subprocess_3.jpg" width = "600" heigth="600"/>
 
-# [HW](python_subprocess_HW1.py)
+
+# HW เขียน subprocess sum output ทั้งหมดของ command 3 อันข้างบน (ตัวเลขก่อน Hello world!)
+[python_subprocess_HW1](https://github.com/nattntn/AIPrototype2023/blob/main/python_subprocess_HW1.py)
