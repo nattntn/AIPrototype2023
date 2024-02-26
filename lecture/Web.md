@@ -21,6 +21,9 @@
   <a href="https://github.com/nattntn/Interpretable_Deep_Neural_Networks_for_Age_and_Gender_Estimation_via_Panoramic_Radiographs">Source Code</a>  
 </div>
 
+## How to activate web page on GitHub
+<img src="https://github.com/nattntn/AIPrototype2023/blob/main/lecture/activate%20web%20page.jpg" width = "600" heigth="600"/>
+
 # Web Application
 <br/>
 <div align="center" >
