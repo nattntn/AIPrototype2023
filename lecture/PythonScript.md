@@ -126,7 +126,7 @@ output
 > 9*inputV (ตัวเลขที่คูณแล้ว)  
 > Hello world!
 
-# ใช้ Python สั่งงาน Program อื่น 25/12/66
+# ใช้_Python_สั่งงาน_Program_อื่น_25/12/66
 [subprocess package](https://docs.python.org/3/library/subprocess.html)
 - run code ซ้ำ ๆ ธรรมดา
 - .Popen  ดึง output จาก Program อื่น มาใช้ต่อ
