@@ -733,8 +733,8 @@ output
 </div>
 
 <div align="center" >
-  <a href="https://nattntn.github.io/Interpretable_Deep_Neural_Networks_for_Age_and_Gender_Estimation_via_Panoramic_Radiographs/">DentAI</a>  
-  <a href="https://github.com/nattntn/Interpretable_Deep_Neural_Networks_for_Age_and_Gender_Estimation_via_Panoramic_Radiographs">Source Code</a>  
+  <a href="https://nattntn.github.io/DentAI_webpage/">DentAI</a>  
+  <a href="https://github.com/nattntn/DentAI_webpage">Source Code</a>  
 </div>
 
 ## How to activate web page on GitHub
