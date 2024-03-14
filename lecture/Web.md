@@ -31,8 +31,8 @@
 </div>
 
 <div align="center" >
-  <a href="#">DentAI</a>  
-  <a href="#">Source Code</a>  
+  <a href="http://20.249.99.43:5001/">DentAI</a>  
+  <a href="https://github.com/NarawitPrathansap/Webapp">Source Code</a>  
 </div>
 
 ## Workflow of our system
