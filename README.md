@@ -13,7 +13,7 @@
 |   6     |  ᴊᴀɴ 1, 2024 |ᴡᴇʙ ᴘᴀɢᴇ                      |  [ʟᴇᴄᴛᴜʀᴇ](lecture/Web.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/2PnI5UpbXUc)|
 |   7     |  ᴊᴀɴ 15-16, 2024 |ᴡᴇʙ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ                      |  <a href="./lecture/Web.md#WebApplication">ʟᴇᴄᴛᴜʀᴇ</a> | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/hL2cL0S8K-Q) [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/s2j0F4yo6TU)|
 |   8     |  ꜰᴇʙ 12-13, 2024 |ᴅᴇᴇᴘ ʟᴇᴀʀɴɪɴɢ, ᴄɴɴ                          |  [ʟᴇᴄᴛᴜʀᴇ](lecture/DeepLearning.pdf) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/jhlBLS2ATlo)|
-|   9     |  ꜰᴇʙ 19-20, 2024 |ᴛᴇɴꜱᴏʀꜰʟᴏᴡ (ᴅᴇᴇᴘ ʟᴇᴀʀɴɪɴɢ ɪᴍᴘʟᴇᴍᴇɴᴛᴀᴛɪᴏɴ)   |  [ʟᴇᴄᴛᴜʀᴇ](lecture/TensorflowSequentialAPI.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/BxMLE2KmuoM) [<img width="25" src="lecture/colab-logo.png"/>](https://colab.research.google.com/drive/1tnzSjm3yvZyTt9ICUBDvCvjE_tSGxKxm?usp=sharing)|
+|   9     |  ꜰᴇʙ 19-20, 2024 |ᴛᴇɴꜱᴏʀꜰʟᴏᴡ (ᴅᴇᴇᴘ ʟᴇᴀʀɴɪɴɢ ɪᴍᴘʟᴇᴍᴇɴᴛᴀᴛɪᴏɴ)   |  [ʟᴇᴄᴛᴜʀᴇ](lecture/TensorflowSequentialAPI.md) | [<img width="18" src="lecture/youtube.png"/>](https://youtu.be/BxMLE2KmuoM) [<img width="25" src="lecture/colab-logo.png"/>](Tensorflow_(Deep_Learning_Implementation).ipynb)|
 
 ***ᴘꜱ. ᴀʟʟ ᴠɪᴅᴇᴏꜱ ᴀʀᴇ ꜱᴇᴛ ᴛᴏ ᴘʀɪᴠᴀᴛᴇ.***
 
